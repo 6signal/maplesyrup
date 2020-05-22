@@ -62,17 +62,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\maplesyrup\textures\block\maplesyrup.png" />
     <Content Include="assets\trampoline\textures\block\trampoline.png" />
     <Content Include="modinfo.json" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="assets\maplesyrup\itemtypes\resource\maplesyrup.json" />
+    <None Include="assets\maplesyrup\lang\en.json" />
+    <None Include="assets\maplesyrup\shapes\item\maplesyrup.json" />
+    <None Include="assets\maplesyrup\shapes\item\maplesyrup2.json" />
     <None Include="assets\trampoline\blocktypes\trampoline.json" />
     <None Include="assets\trampoline\lang\en.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="src\MapleSyrupItem.cs" />
     <Compile Include="src\MapleSyrupMod.cs" />
     <Compile Include="src\TrampolineBlock.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>
