@@ -1,0 +1,11 @@
+{
+  "type": "code",
+  "modid": "maplesyrup",
+  "name": "Maple Syrup Mod",
+  "author": "Omega & Wenwyl",
+  "description": "Maple Syrup!",
+  "version": "0.1.0",
+  "dependency": {
+    "game": "1.12.14"
+  }
+}
