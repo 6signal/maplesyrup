@@ -8,14 +8,14 @@
 	nutritionProps: { saturation: 100, foodcategory: "Fruit" },
 	transitionableProps: [{
 		type: "Perish",
-		freshHours: { avg: 2160 },
-		transitionHours: { avg: 224 },
-		transitionedStack: { type: "item", code: "rot" },
-		transitionRatio: 0.25
+		freshHours: { avg: 4320 },
+		transitionHours: { avg: 168 },
+		transitionedStack: { type: "item", code: "game:rot" },
+		transitionRatio: 1
 	}],
 	creativeinventory: { "general": ["*"], "items": ["*"] },
 	combustibleProps: {
-		burnTemperature: 900,
+		burnTemperature: 300,
 		burnDuration: 6,
 	},
 	materialDensity: 400,
