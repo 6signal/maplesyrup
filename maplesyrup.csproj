@@ -80,8 +80,7 @@
     <Compile Include="src\TrampolineBlock.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="assets\game\recipes\cooking\" />
-    <Folder Include="assets\maplesyrup\itemtypes\resource\" />
+    <Folder Include="assets\game\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

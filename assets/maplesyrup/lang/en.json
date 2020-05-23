@@ -1,3 +1,5 @@
 {
-	"item-maplesyrup": "Maple Syrup"
+	"item-maplesyrup": "Maple Syrup",
+    "recipeingredient-item-maplesyrup": "maple syrup",
+    "recipeingredient-item-maplesyrup-insturmentalcase": "maple syrup",
 }
