@@ -2,12 +2,23 @@
 	code: "maplesyrup",
 	maxstacksize: 32,
 	shape: { base: "item/maplesyrup" },
+	attributes: {
+		nutritionPropsWhenInMeal: { satiety: 150, foodcategory: "Fruit" }
+	},
+	nutritionProps: { saturation: 100, foodcategory: "Fruit" },
+	transitionableProps: [{
+		type: "Perish",
+		freshHours: { avg: 2160 },
+		transitionHours: { avg: 224 },
+		transitionedStack: { type: "item", code: "rot" },
+		transitionRatio: 0.25
+	}],
 	creativeinventory: { "general": ["*"], "items": ["*"] },
 	combustibleProps: {
 		burnTemperature: 900,
 		burnDuration: 6,
 	},
-	materialDensity: 700,
+	materialDensity: 400,
 	guiTransform: {
 		translation: { x: 1, y: 0, z: 0 },
 		rotation: { x: -31, y: -39, z: -180 },

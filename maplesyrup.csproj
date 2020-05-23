@@ -67,10 +67,10 @@
     <Content Include="modinfo.json" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="assets\maplesyrup\itemtypes\resource\maplesyrup.json" />
+    <None Include="assets\maplesyrup\itemtypes\food\maplesyrup.json" />
     <None Include="assets\maplesyrup\lang\en.json" />
+    <None Include="assets\maplesyrup\patches\maplesyrup-meals.json" />
     <None Include="assets\maplesyrup\shapes\item\maplesyrup.json" />
-    <None Include="assets\maplesyrup\shapes\item\maplesyrup2.json" />
     <None Include="assets\trampoline\blocktypes\trampoline.json" />
     <None Include="assets\trampoline\lang\en.json" />
   </ItemGroup>
@@ -79,7 +79,10 @@
     <Compile Include="src\MapleSyrupMod.cs" />
     <Compile Include="src\TrampolineBlock.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="assets\game\recipes\cooking\" />
+    <Folder Include="assets\maplesyrup\itemtypes\resource\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>
